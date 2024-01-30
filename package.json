@@ -9,8 +9,8 @@
   },
   "exports": {
     ".": {
-      "require": "./cjs/index.js",
-      "default": "./esm/index.js"
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/esm/index.js"
     }
   },
   "typings": "index.d.ts",
