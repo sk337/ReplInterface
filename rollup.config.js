@@ -1,5 +1,4 @@
 import dts from 'rollup-plugin-dts'
-import copy from 'rollup-plugin-copy'
 
 import { writeFile, mkdir } from 'fs/promises'
 
@@ -18,11 +17,6 @@ export default [
   {
     input: './src/index.js',
     plugins: [
-      copy({
-        targets: [
-          { src: './package.json', dest: 'dist' }
-        ]
-      }),
       createCommonJsPackage()
     ],
     output: [
