@@ -1,11 +1,12 @@
 {
-  "name": "nodejs",
+  "name": "ReplInterface",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "install": "rollup -c"
   },
   "exports": {
     ".": {
